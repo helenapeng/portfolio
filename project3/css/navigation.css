@@ -1,0 +1,48 @@
+.navbar {
+	width: 100%;
+	height: auto;
+	padding: 0;
+	display: flex;
+	background-color: lightgrey;
+	font-weight: bold;
+	font-size: small;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid dimgrey;
+	z-index: 1;
+}
+
+a.is-current {
+	color: black;
+	text-shadow: 0px 0px 10px cyan;
+}
+
+a.is-current:before {
+	content: '\2605';
+	margin-right: 5px; }
+
+.navbar ul{
+	list-style-type: none;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar li a{
+	display: block;
+	text-indent: 25px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: black;
+  text-shadow: 1px 1px whitesmoke;
+  text-decoration: none;
+}
+
+@media (max-width: 480px ) {
+	.navbar ul, .navbar li { display: block; }
+}

@@ -1,0 +1,15 @@
+@media screen and (max-width: 480px) {
+  thead { display: none; }
+  tr:nth-child(even) { background-image: url("../images/block.png"); }
+  td {
+	  display: flex;
+  }
+  td::before {
+    font-weight: bold;
+	padding-right: 15px;
+	white-space: nowrap;
+  }
+	td:nth-of-type(1):before { content: "Country:"; }
+	td:nth-of-type(2):before { content: "2020 Production:"; }
+	td:nth-of-type(3):before { content: "2021 Production:"; }
+}

@@ -1,0 +1,10 @@
+form { 
+	margin-top: 25px;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	color: pink;
+	
+}
+textarea {
+	width: 100%;
+  	height: 100px;
+}

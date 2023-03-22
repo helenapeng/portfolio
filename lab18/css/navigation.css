@@ -1,0 +1,37 @@
+.menu {
+  font-family: Verdana, sans-serif;
+  font-size: small;
+}
+
+.menu .is-current {
+  background-color: lightpink;
+  color: black;
+}
+
+.menu ul {
+  list-style-type: none;
+  padding: 0px;
+  overflow: hidden;
+}
+
+.menu li {
+  float: left;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 15px;
+}
+
+.menu li a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+@media (max-width: 480px ) { .menu ul, .menu li { display: block; } }

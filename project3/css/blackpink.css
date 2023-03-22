@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+  thead { display: none; }
+  tr:nth-child(even) { background-image: url("../images/block.png"); }
+  td {
+	  display: flex;
+  }
+  td::before {
+    font-weight: bold;
+	padding-right: 15px;
+	white-space: nowrap;
+  }
+	td:nth-of-type(1):before { content: "#:"; }
+	td:nth-of-type(2):before { content: "ALBUM:"; }
+	td:nth-of-type(3):before { content: "STUDIO ALBUMS:"; }
+	td:nth-of-type(4):before { content: "OTHER LPS:"; }
+	td:nth-of-type(5):before { content: "PHYSICAL SINGLES:"; }
+	td:nth-of-type(6):before { content: "LAST VERIFIED:"; }
+	td:nth-of-type(7):before { content: "AUTO UPDATE:"; }
+	td:nth-of-type(8):before { content: "DAILY INCREASE:"; }
+	td:nth-of-type(9):before { content: "TOTAL CSPC:"; }
+}
