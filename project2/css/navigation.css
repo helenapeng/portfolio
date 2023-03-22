@@ -1,0 +1,28 @@
+.navbar {
+	width: auto;
+	height: auto;
+	color: dimgrey;
+	text-align: center;
+	display: flex;
+	background-color: lightgrey;
+	text-shadow: 1px 1px whitesmoke;
+	font-weight: bold;
+	font-size: small;
+	position: sticky;
+	top: 0;
+	border-bottom: 1px solid dimgrey;
+}
+          
+.btn {
+	width: 100%;
+	height: auto;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.navbar a:visited { color: dimgrey; }
+
+.navbar a:hover {
+  color: darkcyan;
+  text-shadow: 1px 1px whitesmoke;
+}
